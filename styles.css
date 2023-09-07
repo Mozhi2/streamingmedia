@@ -197,7 +197,9 @@ nav{
     
 }
 
-
+a{
+    display: block;
+}
 
 
 .smooth{
@@ -226,6 +228,8 @@ li a, li{
 
  li{
     margin-left: 50px;
+    width: 100%;
+    height: 56px;
  }
 
  ul li:last-child{
