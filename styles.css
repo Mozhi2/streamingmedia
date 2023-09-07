@@ -118,6 +118,8 @@ ul {
     transition: max-height .2s ease-out;
     align-items: center;
     list-style: none;
+    width: 100%;
+    margin-top: 2px;
 }
 
 
@@ -224,14 +226,17 @@ li a, li{
   text-decoration:none;
   color: #ffffff;
   text-align: center;
+  
  }
 
  li{
     margin-left: 50px;
-    width: 100%;
+    width: 73%;
     height: 56px;
  }
 
+
+ 
  ul li:last-child{
     display: none;
  }
@@ -242,12 +247,13 @@ li a, li{
     font-weight: 900;
     text-align: left;
     margin-left: 10px;
-   
+  
 } 
 
 ul li:first-child:hover{
-   
-   width: 78%;
+   height:56px;
+   width: 100%;
+
 }
 
 .trending{
@@ -538,15 +544,14 @@ audio::-webkit-media-controls-enclosure{
 
     li:first-child{
         margin-right: 35px;
+        
     }
-
- 
 
     li{
         width: 50%;
     }
 
-
+ 
     ul li:last-child{
         display: inline-block;
     }
@@ -566,8 +571,7 @@ audio::-webkit-media-controls-enclosure{
         text-align: right;
       
     }
-    
-    
+   
 
     .playlistwrap{
         display: flex;
