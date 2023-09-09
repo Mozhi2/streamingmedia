@@ -201,6 +201,7 @@ nav{
 
 a{
     display: block;
+
 }
 
 
@@ -230,12 +231,14 @@ li a, li{
  }
 
  li{
-    margin-left: 50px;
-    width: 73%;
+   
+    width: 100%;
     height: 56px;
  }
 
-
+ ul li:first-child {
+    width: 100%;
+ }
  
  ul li:last-child{
     display: none;
@@ -246,14 +249,13 @@ li a, li{
     font-size: 1.25em;
     font-weight: 900;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 2px;
   
 } 
 
 ul li:first-child:hover{
-   height:56px;
+   
    width: 100%;
-
 }
 
 .trending{
@@ -550,6 +552,7 @@ audio::-webkit-media-controls-enclosure{
     li{
         width: 50%;
     }
+
 
  
     ul li:last-child{
